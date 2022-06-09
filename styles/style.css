@@ -1,0 +1,168 @@
+.header{
+    background-color: darkgreen;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+}
+
+.header-box{
+    width: 60%;
+    /*background-color: cornflowerblue;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.header-box-left{
+    background-color: darkseagreen;
+    color: white;
+    font-size: 3rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-family: sans-serif;
+}
+
+.header-box-right{
+    text-align: right;
+    margin-left: auto;
+    color: white;
+    font-size: 1.75rem;
+    font-family: arial;
+}
+
+.homepage{
+    background-color: forestgreen;
+}
+
+.homepage-box{
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 69vh;
+    background-color: darkseagreen;
+    display: grid;
+    gap: 1.5rem;
+    justify-content: center;
+    grid-template-columns: 18rem 18rem 18rem;
+    grid-template-rows: 5vh 5vh 5vh;
+    padding-top: 4rem;
+    
+}
+
+/*.content-1{
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 25%;
+    width: 25%;
+    background-color: darkgrey;
+    font-family: Arial;
+    padding: 1%;
+}*/
+
+.item-1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    height: 10rem;
+    background-color: dimgrey;
+    padding: 5%;
+}
+.item-2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;  
+    height: 10rem;
+    background-color: dimgrey;
+    padding: 5%;
+}
+.item-3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    height: 10rem;
+    background-color: dimgrey;
+    padding: 5%;
+}
+.item-4{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    background-color: dimgrey;
+    height: 10rem;
+}
+.item-5{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    background-color: dimgrey;
+    height: 10rem;
+}
+.item-6{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    background-color: dimgrey;
+    height: 10rem;
+}
+.title{
+    color: greenyellow;
+    font-size: 1.5rem;
+    font-family: Arial;
+}
+
+.lorem{
+    font-size: 0.85rem;
+    color: white;
+}
+
+.contact{
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 67vh;
+    
+}
+
+.contact-box{
+    height: 20rem;
+    padding: 7%;
+    color: blueviolet;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+}
+
+.contact-box-info{
+    color: darkgreen;
+    background-color: darkseagreen;
+    font-size: x-large;
+    padding: 2rem;
+    font-family: arial;
+}
+
+.title-2{
+    margin-left: 35%;
+    color: greenyellow;
+    background-color: darkgreen;
+    padding: 0.5rem;
+    border-radius: 5rem;
+}
+
+.footer{
+    background-color: green;
+    height: 3rem;
+
+}
+
+.footer-box{
+    text-align: center;
+    color: white;
+}
